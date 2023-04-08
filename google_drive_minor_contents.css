@@ -1,0 +1,142 @@
+.logo{
+    display:flex;
+    margin:1vh;
+    padding:auto;
+    align-items: center;
+    font-size: 20px;
+    width:10vw;
+    /* text-decoration: none; */
+}
+.text{
+    margin:10px;
+    /* text-decoration: none; */
+    color:black;
+}
+.btn{
+    width: 15vh;
+    height:7vh;
+    border-radius: 2vh;
+    background-color: white;
+    border: solid white;
+    box-shadow: 0.5px 0.5px 0.5px 1px;
+
+    font-family: 'Raleway', sans-serif;
+}
+.leftbuttons{
+    margin:20px 0;
+}
+.small_buttons{
+    display:block;
+    margin:2px;
+    width:20vw;
+    height:5vh;
+    text-align: start;
+    padding-left: 5px;
+    background-color: transparent;
+    border: solid transparent;
+    border-radius: 2vh;
+    font-family: Poppins;
+    
+}
+.special_btn{
+    background-color: #C2E7FF;
+}
+
+
+:root{
+    --background-color: rgb(247,249,252);
+}
+.box{
+    display:flex;
+    margin-left:20px;
+    align-items: center;
+    
+}
+.search_box{
+    
+    width: 50vw;
+    height:6vh;
+    border-radius: 4vh;
+    padding-left: 10px;
+    background-color:rgb(237,242,252);
+    border:solid rgb(237,242,252);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.search_btn{
+    height:6vh;
+    /* margin-left: 10px; */
+    color:black;
+    padding: 1vh;
+    border-radius: 4vh;
+}
+.search_btn2{
+    margin-left:10px;
+    border-radius: 4vh;
+    border:solid transparent;
+    background-color: transparent;
+}
+.hover:hover{
+    background-color: #E6E7EA;
+}
+
+.icon{
+    height:4vh;
+    width:4vh;
+}
+body{
+    background-color: var(--background-color);
+    overflow:hidden;
+    
+}
+.setting{
+    margin-left: 3vh;
+    margin-top: 1vh;
+    background-color: transparent; 
+    border: solid transparent;
+    border-radius: 3vh;
+    padding: 2px;
+    
+}
+.setting:hover{
+    background-color:#E6E7EA;
+}
+.top_icons{
+    display: flex;
+    margin:auto 0;
+}
+.fixed{
+    display:fixed;
+}
+.main_files{
+    background-color:transparent;
+    margin:1vh none;
+}
+.file{
+    height:35vh;
+    width:43vh;
+    margin:1vh;
+    border-radius: 2vh;
+    background-color: #EDF2FC;
+    display:inline-block;
+    padding:1vh;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.image{
+    margin:auto 1vh;
+    width:40vh;
+    
+}
+.temp_div{
+    height:8vh;
+    display:flex;
+    align-content: center;
+    padding-top: 3vh;
+    font-family: Poppins;
+    font-size: 18px;
+}
