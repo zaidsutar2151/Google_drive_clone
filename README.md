@@ -1,2 +1,2 @@
 # Google_drive_clone
-I have created google drive clone using html and css
+Google drive clone this clone of google using html and css
